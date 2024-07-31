@@ -1,3 +1,4 @@
+import AboutUs from './components/AboutUs';
 import { Hero } from './components/Hero';
 import Navbar from './components/Navbar';
 import './index.css';  
@@ -10,13 +11,11 @@ function App() {
     <div className=" font-gotham">
       <Navbar />
       <Hero />
+      <AboutUs/>
 
-      
-
-      
-  
     </div>
-  );
+  
+  )
 }
 
-export default App;
+export default App
