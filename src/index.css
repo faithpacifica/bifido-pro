@@ -37,7 +37,7 @@ html{
 
 body{
   font-family: var(--gotham);
-  font-size: 1.6rem;
+  font-size: 16px;
   color: #202022;
   line-height: 2.4rem;
 }
@@ -52,4 +52,11 @@ body{
 
 .gotham {
   font-family: var(--gotham);
+}
+.hero-bg{
+  background-image: url("./assets/images/hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 42vw;
 }

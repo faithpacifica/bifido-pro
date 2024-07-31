@@ -1,5 +1,6 @@
 import { Hero } from './components/Hero';
 import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';  
 
 import { useTranslation } from 'react-i18next';
