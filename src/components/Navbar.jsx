@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <nav className="text-white bg-orange">
       <div className='container flex items-center justify-between py-8 '>
-      <Link  to="/"> <img   src={Logo} className="w-1/2 min-w-[120px] inline-block " alt='logo' /></Link>
+      <Link  to="/">
+       <img   src={Logo} className="w-1/2 min-w-[120px] inline-block " alt='logo' />
+       </Link>
       
       <div className="flex items-center justify-center text-lg font-bold navbar">
         <ul className='flex '>
@@ -24,12 +26,12 @@ const Navbar = () => {
 
         <button
         onClick={() => handleLanguageChange(i18n.language === 'ru' ? 'uz' : 'ru')}
-        className="flex items-center ml-4 space-x-2"
+        className="flex items-center ml-4 space-x-2 hover:text-textColor"
       >
         <span className="text-sm">
           {i18n.language === 'ru' ? 'RU' : 'UZ'}
         </span>
-        <span className="text-xl">{i18n.language === 'ru' ? 'uz' : 'ru'}</span>
+        {/* <span className="text-sm">{i18n.language === 'ru' ? 'uz' : 'ru'}</span> */}
       </button>
       </div>
      

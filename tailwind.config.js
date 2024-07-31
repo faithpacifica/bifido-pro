@@ -14,7 +14,8 @@ module.exports = {
     },
     colors:{
       orange:'#F57F05',
-      green:'#15BBC7'
+      green:'#15BBC7',
+      textColor:'#202022'
     },
     fontSize: {
       sm: '14px',
