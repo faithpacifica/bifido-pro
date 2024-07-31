@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './assets/fonts/gothampro-black.ttf'
 import App from './App';
 import './i18n'; 
 

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Gothampro';
+  src: url('./assets/fonts/gothampro-black.ttf') format('ttf'),
+       url('./assets/fonts/gothampro-black.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamproBold';
+  src: url('./assets/fonts/GOTHAPROBOL.OTF') format('otf'),
+       url('./assets/fonts/GOTHAPROBOL.OTF') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
