@@ -9,8 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
-      <div className="text-lg">My App</div>
+    <nav className="text-white bg-gray-800">
+      <div className='container flex items-center justify-between p-4 '>
+      <div className="text-lg ">My App</div>
       <button
         onClick={() => handleLanguageChange(i18n.language === 'ru' ? 'uz' : 'ru')}
         className="flex items-center space-x-2"
@@ -20,6 +21,7 @@ const Navbar = () => {
         </span>
         <span className="text-xl">{i18n.language === 'ru' ? 'uz' : 'ru'}</span>
       </button>
+      </div>
     </nav>
   );
 };
