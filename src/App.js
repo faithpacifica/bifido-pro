@@ -1,3 +1,4 @@
+import { Hero } from './components/Hero';
 import Navbar from './components/Navbar';
 import './index.css';  
 
@@ -8,6 +9,11 @@ function App() {
   return (
     <div className=" font-gotham">
       <Navbar />
+      <Hero />
+
+      
+
+      
       <h1>{t('welcome')}</h1>
     </div>
   );
