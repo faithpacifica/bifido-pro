@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const { i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const handleLanguageChange = (lng) => {
     i18n.changeLanguage(lng);
@@ -19,20 +20,19 @@ const Navbar = () => {
       
       <div className="flex items-center justify-center text-lg font-bold navbar">
         <ul className='flex '>
-          <li className='px-3'><Link to="/">Взрослым</Link></li>
-          <li className='px-3'><Link to="/">Детям</Link></li>
-          <li className='px-3'><Link to="/">Где купить?</Link></li>
+          <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink1')}</Link></li>
+          <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink2')}</Link></li>
+          <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink3')}</Link></li>
         </ul>
-
+{/* TODO:localStorage ga saqlash */}
         <button
         onClick={() => handleLanguageChange(i18n.language === 'ru' ? 'uz' : 'ru')}
-        className="flex items-center ml-4 space-x-2 hover:text-textColor"
+        className="flex items-center ml-4 space-x-2 text-xl font-bold hover:text-gray-600"
       >
-        <span className="text-sm">
+        <span className="text-xl ">
           {i18n.language === 'ru' ? 'RU' : 'UZ'}
         </span>
-        {/* <span className="text-sm">{i18n.language === 'ru' ? 'uz' : 'ru'}</span> */}
-      </button>
+         </button>
       </div>
      
       </div>

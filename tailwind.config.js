@@ -15,6 +15,7 @@ module.exports = {
     colors:{
       orange:'#F57F05',
       green:'#15BBC7',
+      gray:'#727376',
       textColor:'#202022'
     },
     fontSize: {
