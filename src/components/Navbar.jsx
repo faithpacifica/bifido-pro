@@ -18,7 +18,7 @@ const Navbar = () => {
        <img   src={Logo} className="w-1/2 min-w-[120px] inline-block " alt='logo' />
        </Link>
       
-      <nav className="flex items-center justify-center text-lg font-bold navbar">
+      <nav className="flex items-center justify-center text-xl font-bold navbar">
         <ul className='flex '>
           <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink1')}</Link></li>
           <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink2')}</Link></li>

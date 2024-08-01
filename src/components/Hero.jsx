@@ -9,14 +9,14 @@ export const Hero = () => {
             <div className="container flex items-center justify-start ">
                 <div className="flex flex-col hero-left pt-16 max-w-[50%] w-full">
                     <h1 className='mb-16 text-5xl '>{t('heroTitle')}</h1>
-                    {/* TODO:buttonni chuzishh */}
+                  
                     <button className='inline-flex px-4 py-3 text-2xl text-white rounded-full w-fit align-left bg-orange' type="button">
                         {t('heroButton')}
                     </button>
 
-                    <div className="flex mt-10 hero-image">
-                        <img src={medicineGreen} className="" alt='medicine' />
-                        <img src={medicineOrange} className="" alt='medicine' />
+                    <div className="flex justify-end  gap-10 mt-16 hero-image max-w-[70%]">
+                        <img src={medicineGreen} className="max-w-[40%]" alt='medicine' />
+                        <img src={medicineOrange} className="max-w-[40%]" alt='medicine' />
                     </div>
                 </div>
             </div>

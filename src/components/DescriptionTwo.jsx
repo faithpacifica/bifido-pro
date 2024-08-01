@@ -1,5 +1,5 @@
 import React from 'react'
-// import BubblesOrange from '../assets/images/bubbles-orange.png';
+import BubblesOrange from '../assets/images/bubbles-orange.png';
 import medicineOrange from '../assets/images/sashe-orange.png';
 const DescriptionTwo = () => {
 
@@ -11,7 +11,7 @@ const DescriptionTwo = () => {
                         <p>Кишечная колика 70% из всех жалоб
                             в первые полгода жизни ребенка составляют кишечные колики, они возникают в результате нарушений микрофлоры кишечника. </p>
                         <div>
-                            {/* <img src={BubblesOrange} className="" alt='intestine' /> */}
+                            <img src={BubblesOrange} className="" alt='intestine' />
                         </div>
                     </div>
                     <div className=' max-w-[50%] w-full'>

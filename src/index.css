@@ -55,10 +55,10 @@ body{
 }
 .hero-bg{
   background-image: url("./assets/images/hero-bg.jpg");
-  background-position: center;
+  background-position:top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 42vw;
+  height: 38vw;
 }
 
 /* TODO:check once again */
