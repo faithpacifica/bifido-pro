@@ -2,6 +2,7 @@ import AboutUs from './components/AboutUs';
 import DescriptionOne from './components/DescriptionOne';
 import DescriptionTwo from './components/DescriptionTwo';
 import { Hero } from './components/Hero';
+import Indications from './components/Indications';
 import Navbar from './components/Navbar';
 import './index.css';  
 
@@ -17,6 +18,7 @@ function App() {
       
       <DescriptionOne/>
       <DescriptionTwo />
+      <Indications />
 
     </div>
   
