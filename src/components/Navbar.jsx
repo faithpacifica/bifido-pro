@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white bg-orange">
+    <header className="text-white bg-orange">
       <div className='container flex items-center justify-between py-8 '>
       <Link  to="/">
        <img   src={Logo} className="w-1/2 min-w-[120px] inline-block " alt='logo' />
        </Link>
       
-      <div className="flex items-center justify-center text-lg font-bold navbar">
+      <nav className="flex items-center justify-center text-lg font-bold navbar">
         <ul className='flex '>
           <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink1')}</Link></li>
           <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink2')}</Link></li>
@@ -33,10 +33,10 @@ const Navbar = () => {
           {i18n.language === 'ru' ? 'RU' : 'UZ'}
         </span>
          </button>
-      </div>
+      </nav>
      
       </div>
-    </nav>
+    </header>
   );
 };
 

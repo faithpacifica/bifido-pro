@@ -1,4 +1,6 @@
 import AboutUs from './components/AboutUs';
+import DescriptionOne from './components/DescriptionOne';
+import DescriptionTwo from './components/DescriptionTwo';
 import { Hero } from './components/Hero';
 import Navbar from './components/Navbar';
 import './index.css';  
@@ -12,6 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs/>
+      
+      <DescriptionOne/>
+      <DescriptionTwo />
 
     </div>
   
