@@ -20,14 +20,14 @@ const Navbar = () => {
       
       <nav className="flex items-center justify-center text-xl font-bold navbar">
         <ul className='flex '>
-          <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink1')}</Link></li>
-          <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink2')}</Link></li>
-          <li className='mr-3 hover:text-gray-700'><Link to="/">{t('navLink3')}</Link></li>
+          <li className='mr-4 hover:text-gray-700'><Link to="/">{t('navLink1')}</Link></li>
+          <li className='mr-4 hover:text-gray-700'><Link to="/">{t('navLink2')}</Link></li>
+          <li className='mr-4 hover:text-gray-700'><Link to="/">{t('navLink3')}</Link></li>
         </ul>
 {/* TODO:localStorage ga saqlash */}
         <button
         onClick={() => handleLanguageChange(i18n.language === 'ru' ? 'uz' : 'ru')}
-        className="flex items-center ml-4 space-x-2 text-xl font-bold hover:text-gray-600"
+        className="flex items-center ml-6 space-x-2 text-xl font-bold hover:text-gray-600"
       >
         <span className="text-xl ">
           {i18n.language === 'ru' ? 'RU' : 'UZ'}
