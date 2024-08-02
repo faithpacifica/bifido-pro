@@ -4,9 +4,9 @@ import AnimationButton from './AnimationButton'
 const Footer = () => {
     return (
         <footer className='bg-green py-10'>
-            <div className='container'>
-                <div className='flex justify-between items-start'>
-                    <div>
+            <div className='container mx-auto px-4'>
+                <div className='flex flex-col lg:flex-row justify-between items-start lg:items-center'>
+                    <div className='mb-8 lg:mb-0'>
                         <ul>
                             <li>
                                 <p className='font-bold leading-5'>Товар сертифицирован</p>
@@ -39,14 +39,14 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-[16%]  flex flex-col gap-4'>
-                        <AnimationButton customClass=" text-lg w-full block rounded-lg py-3 px-10 bg-white text-black font-bold border-2 border-transparent">Pharmclick</AnimationButton>
-                        <AnimationButton customClass=" text-lg w-full block rounded-lg py-3 px-10 bg-white text-black font-bold border-2 border-transparent">Gopharm</AnimationButton>
-                        <AnimationButton customClass=" text-lg w-full block rounded-lg py-3 px-10 bg-white text-black font-bold border-2 border-transparent">Arzonapteka</AnimationButton>
+                    <div className='w-full lg:w-auto lg:basis-[16%] flex flex-col gap-4'>
+                        <AnimationButton customClass="text-lg w-full lg:w-auto block rounded-lg py-3 px-10 bg-white text-black font-bold border-2 border-transparent">Pharmclick</AnimationButton>
+                        <AnimationButton customClass="text-lg w-full lg:w-auto block rounded-lg py-3 px-10 bg-white text-black font-bold border-2 border-transparent">Gopharm</AnimationButton>
+                        <AnimationButton customClass="text-lg w-full lg:w-auto block rounded-lg py-3 px-10 bg-white text-black font-bold border-2 border-transparent">Arzonapteka</AnimationButton>
                     </div>
                 </div>
             </div>
-        </footer >
+        </footer>
     )
 }
 
