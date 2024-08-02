@@ -5,7 +5,7 @@ import medicineOrange from '../assets/images/sashe-orange.png'
 export const Hero = () => {
     const { t } = useTranslation();
     return (
-        <section className=' hero-bg'>
+        <section className='border-t-8 border-b-8 border-b-green border-t-gray hero-bg'>
             <div className="container flex items-center justify-start ">
                 <div className="flex flex-col hero-left pt-16 max-w-[50%] w-full">
                     <h1 className='mb-16 text-5xl '>{t('heroTitle')}</h1>
