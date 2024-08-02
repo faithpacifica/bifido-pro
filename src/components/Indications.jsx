@@ -5,7 +5,7 @@ import AnimationButton from './AnimationButton';
 
 const Indications = () => {
     return (
-        <section className='py-12'>
+        <section className='py-12 bg-[url(./assets/images/bg-gray.png)]'>
             <h3 className='py-2 pr-10 bg-orange  text-white rounded-r-[50px] w-[350px] text-right text-3xl'>Как принимать</h3>
             <div className='container'>
                 <div className='flex justify-between gap-20'>
