@@ -6,9 +6,8 @@ import capsula from '../assets/images/capsula.png';
 
 const DescriptionOne = () => {
     return (
-        <section className='description-one'>
-            <div className="wrapper">
-                
+        <section className='relative description-one'>
+                           
                 <DescriptionShape
                     className=""
                     imgCustomClass="w-[50px] h-[70px]"
@@ -39,7 +38,7 @@ const DescriptionOne = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+    
         </section>
     )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 export const DescriptionShape = ({ customClass, customImage, imgDesc, koeNumber, capsule, imgCustomClass }) => {
   return (
-    <div className={`border-b-[7px] border-l-[7px] rounded-bl-[70px]  ${customClass}`}>
-      <div className='ml-[-50px] flex items-center justify-center py-5'>
+    <div className={`border-b-[7px] border-l-[7px] rounded-bl-[70px] pr-[10%] pl-[4%] absolute top-0 right-0 ${customClass}`}>
+      <div className='flex items-center justify-center py-5'>
         <img className={` ${imgCustomClass}`} src={customImage} alt={imgDesc} />
 
         <div className='w-[2px] h-[70px] mx-8 bg-white'></div>
