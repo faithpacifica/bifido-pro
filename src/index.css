@@ -54,26 +54,27 @@ body{
   background-position:top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vw;
+  height: 92vh;
 }
 
 @media (max-width: 1424px) {
   .hero-bg {
-    /* background-size: contain; */
-    height: 100vw; /* Increase height on medium screens */
+    background-size:auto ;
+    height: 80vh; /* Increase height on medium screens */
   }
 }
 
 @media (max-width: 768px) {
   .hero-bg {
-    height: 100vw; /* Further increase height on smaller screens */
+    height: 70vh; 
   }
 }
 
 @media (max-width: 640px) {
   .hero-bg {
     height: auto; /* Adjust height for very small screens */
-    min-height: 300px; /* Set a minimum height */
+    min-height: 300px;
+    background-position:top left;
   }
 }
 

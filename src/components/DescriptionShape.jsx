@@ -13,7 +13,7 @@ export const DescriptionShape = ({ customClass, customImage, imgDesc, koeNumber,
           <span className='leading-none'>млрд <br /> КОЕ</span>
         </div>
 
-        <div className='md:mx-8 mx-3 flex flex-col items-center justify-center w-20 h-20  text-white border-[3px] border-white rounded-full bg-gray'>
+        <div className='sm:mx-8 mx-1 flex flex-col items-center justify-center w-20 h-20  text-white border-[3px] border-white rounded-full bg-gray'>
           <span className='text-3xl font-bold leading-none'>10</span>
           <span className='leading-none'>{capsule}</span>
         </div>

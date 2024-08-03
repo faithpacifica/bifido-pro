@@ -8,7 +8,7 @@ import AnimationButton from './AnimationButton';
 
 const DescriptionOne = () => {
     return (
-        <section className='relative description-one'>
+        <section className='relative border-b-8 border-b-green description-one'>
             <DescriptionShape
                 imgCustomClass="w-[50px] h-[70px]"
                 customClass=" bg-green border-orange"

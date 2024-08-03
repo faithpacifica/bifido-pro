@@ -8,13 +8,13 @@ import AnimationButton from './AnimationButton'
 
 const AboutUs = () => {
   return (
-    <div className="h-full py-[40px] md:py-[80px] about-bg ">
-      <h3 className='py-2 px-[20px] md:px-[45px] bg-orange text-white rounded-r-[50px] w-full md:w-[450px] font-bold leading-relaxed text-lg md:text-2xl text-center md:text-left'>
+    <div className="border-b-8 border-b-green h-full py-[40px] md:pt-[80px] md:pb-[60px] about-bg ">
+      <h3 className='py-2 px-3 md:px-5 md:px-[45px] bg-orange text-white rounded-r-[50px] w-full w-[400px] md:w-[450px] font-bold leading-relaxed text-lg md:text-2xl text-center md:text-left'>
         Откройте "Мир - семейного прибиотика
       </h3>
-      <div className="container px-4 mx-auto md:px-0">
+      <div className="container px-4 mx-auto md:mt-4 md:px-0">
         <div className='flex flex-col items-center justify-between space-y-8 md:flex-row md:items-start md:space-y-0'>
-          <div className='text-black font-bold max-w-full md:max-w-[380px] leading-normal text-base md:text-xl  md:mt-5'>
+          <div className=' mt-8 text-black font-bold max-w-full md:max-w-[380px] leading-normal text-base md:text-xl  md:mt-5'>
             <div className='flex items-start text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Пробиотик на основе живых бактерий</p>
@@ -35,18 +35,21 @@ const AboutUs = () => {
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Улучшает усвояемость питательных веществ</p>
             </div>
-            <AnimationButton customClass=" rounded-full text-center px-3 bg-[#0EB1BA] mt-[54px] inline-block text-white font-normal border-2 border-[#DD9043]">
-              О Бифидо ПРО
+            <AnimationButton customClass="inline-flex items-center hover:bg-opacity-75 transition duration-300  rounded-full text-center px-3 py-2 bg-[#0EB1BA] mt-[54px] inline-block text-white font-normal border-2 border-[#DD9043]">
+             {/* TODO:link */}
+              <a href="/"  target="_blank">О Бифидо ПРО</a>
             </AnimationButton>
           </div>
           <div >
-            <img src={Image1} className='w-[500px] mt-[-282px]' alt="family" />
+            <img src={Image1} className=' w-auto lg:w-[500px] md:mt-[-100px] lg:mt-[-282px] hidden lg:block' alt="family" />
           </div>
           <div className='flex flex-col items-center space-y-8 md:items-end mr-[42px] mt-[-33px]'>
-            <img src={Image3} className='w-full md:w-[200px]' alt="Бифидо про КАПС." />
-            <img src={Image2} className='w-full md:w-[200px] mb-[60px]' alt="medicine" />
-            <AnimationButton customClass="rounded-full text-center px-3 bg-[#0EB1BA] inline-block text-white font-normal border-2 border-[#DD9043]">
-              ИНСТРУКЦИЯ
+            <img src={Image3} className='w-[70%] sm:w-[50%] md:w-[200px]' alt="Бифидо про КАПС." />
+            <img src={Image2} className='w-[70%] sm:w-[50%] md:w-[200px] mb-[60px]' alt="medicine" />
+            
+            <AnimationButton customClass=" hover:bg-opacity-75 transition duration-300 w-full text-lg rounded-full text-center py-1  px-3 bg-[#0EB1BA] inline-block text-white font-normal border-2 border-[#DD9043]">
+             {/* TODO:link */}
+            <a href="/"  target="_blank">  ИНСТРУКЦИЯ</a>
             </AnimationButton>
           </div>
         </div>
