@@ -98,3 +98,18 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+.about-bg{
+  background-image: url("./assets/images/bgpg3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.about-img{
+  background-image: url("./assets/images/bgpg3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
