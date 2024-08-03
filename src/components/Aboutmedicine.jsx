@@ -12,19 +12,19 @@ const Aboutmedicine = () => {
         <div className='pt-5 space-y-4 text-base leading-relaxed text-black md:text-2xl'>
           <div className='flex items-start text-left'>
             <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
-            <p>
+            <p  data-aos="fade-left" data-aos-duration="1100" >
               <span className='font-bold'>Бифидо ПРО </span> — пробиотик на основе живых бактерий,<br/> представителей рода <span className='font-bold'>Бациллюс субтилис, лакто-</span> и <span className='font-bold'>бифидо</span>бактерий.
             </p>
           </div>
           <div className='flex items-start text-left'>
             <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
-            <p>
+            <p  data-aos="fade-left" data-aos-duration="1100" >
               Эти микроорганизмы при попадание в организм способствуют нормализации качественного и количественного состава микрофлоры кишечника.
             </p>
           </div>
           <div className='flex items-start text-left'>
             <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
-            <p>
+            <p  data-aos="fade-left" data-aos-duration="1100" >
               <span className='font-bold'>Бифидо ПРО</span> выпускается на иностранном предприятие (ИП «IGN HEALTH GROUP») по американской технологии в виде <span>капсул и саше.</span>
             </p>
           </div>

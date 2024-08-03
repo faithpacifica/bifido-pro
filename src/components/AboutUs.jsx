@@ -15,23 +15,23 @@ const AboutUs = () => {
       <div className="container px-4 mx-auto md:mt-4 md:px-0">
         <div className='flex flex-col items-center justify-between space-y-8 md:flex-row md:items-start md:space-y-0'>
           <div className=' mt-8 text-black font-bold max-w-full md:max-w-[380px] leading-normal text-base md:text-xl  md:mt-5'>
-            <div className='flex items-start text-left'>
+            <div  data-aos="fade-left" data-aos-duration="1500"  className='flex items-start text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Пробиотик на основе живых бактерий</p>
             </div>
-            <div className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1100"  className='flex items-start text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Нормализует микрофлору кишечника</p>
             </div>
-            <div className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1300"  className='flex items-start text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Уничтожает рост и размножение патогенных бактерий</p>
             </div>
-            <div className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1400"  className='flex items-start text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Повышает сопротивляемость организма к кишечным и дыхательным инфекциям</p>
             </div>
-            <div className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1500"  className='flex items-start text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>Улучшает усвояемость питательных веществ</p>
             </div>
@@ -44,8 +44,8 @@ const AboutUs = () => {
             <img src={Image1} className=' w-auto lg:w-[500px] md:mt-[-100px] lg:mt-[-282px] hidden lg:block' alt="family" />
           </div>
           <div className='flex flex-col items-center space-y-8 md:items-end mr-[42px] mt-[-33px]'>
-            <img src={Image3} className='w-[70%] sm:w-[50%] md:w-[200px]' alt="Бифидо про КАПС." />
-            <img src={Image2} className='w-[70%] sm:w-[50%] md:w-[200px] mb-[60px]' alt="medicine" />
+            <img  data-aos="zoom-in" data-aos-duration="1100"  src={Image3} className='w-[70%] sm:w-[50%] md:w-[200px]' alt="Бифидо про КАПС." />
+            <img  data-aos="zoom-in" data-aos-duration="1100" src={Image2} className='w-[70%] sm:w-[50%] md:w-[200px] mb-[60px]' alt="medicine" />
             
             <AnimationButton customClass=" hover:bg-opacity-75 transition duration-300 w-full text-lg rounded-full text-center py-1  px-3 bg-[#0EB1BA] inline-block text-white font-normal border-2 border-[#DD9043]">
              {/* TODO:link */}

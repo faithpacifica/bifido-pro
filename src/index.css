@@ -60,7 +60,7 @@ body{
 @media (max-width: 1424px) {
   .hero-bg {
     background-size:auto ;
-    height: 80vh; /* Increase height on medium screens */
+    height: 90vh; /* Increase height on medium screens */
   }
 }
 

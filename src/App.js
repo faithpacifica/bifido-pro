@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Aboutmedicine from './components/Aboutmedicine';
 import AboutUs from './components/AboutUs';
 import DescriptionOne from './components/DescriptionOne';
@@ -9,11 +9,22 @@ import Indications from './components/Indications';
 import Navbar from './components/Navbar';
 import Subscribe from './components/Subscribe';
 import './index.css';  
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-// import { useTranslation } from 'react-i18next';
 
 function App() {
-  // const { t } = useTranslation();
+  
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+      easing: 'ease-in-out',
+      delay: 100,
+      once: true,
+    });
+  }, []);
+  
   return (
     <div className=" font-gotham">
       <Navbar />
