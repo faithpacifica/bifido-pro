@@ -39,10 +39,10 @@ const DescriptionOne = () => {
                             <div className="w-full lg:max-w-[40%] gap-6 mb-10 flex flex-col mt-6 lg:mt-0">
                                 {/* TODO:linklarini quyish */}
                                 <AnimationButton customClass="w-[250px] mx-auto lg:w-full rounded-full font-semibold px-2 sm:px-4 py-1 bg-orange hover:bg-opacity-75 transition duration-300 inline-flex items-center justify-center text-white border-2 border-green text-lg">
-                                    <a href="" target="_blank">Как принимать</a>
+                                    <a href="/" target="_blank">Как принимать</a>
                                 </AnimationButton>
                                 <AnimationButton customClass="w-[250px] mx-auto lg:w-full rounded-full font-semibold px-2 sm:px-4 py-1 bg-green hover:bg-opacity-75 transition duration-300 inline-flex items-center justify-center text-white border-2 border-orange text-lg">
-                                    <a href="" target="_blank">Инструкция</a>
+                                    <a href="/" target="_blank">Инструкция</a>
                                 </AnimationButton>
                             </div>
                         </div>

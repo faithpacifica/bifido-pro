@@ -1,3 +1,4 @@
+import React from 'react';
 import Aboutmedicine from './components/Aboutmedicine';
 import AboutUs from './components/AboutUs';
 import DescriptionOne from './components/DescriptionOne';
