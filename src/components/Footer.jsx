@@ -39,9 +39,9 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='w-full lg:w-auto lg:basis-[16%] flex flex-col gap-4'>
-                        <a href="https://pharmaclick.uz/ru/" target="_blank"  rel="noreferrer" className="block w-full px-10 py-3 text-lg font-bold text-black bg-white border-2 border-transparent rounded-lg hover:text-white hover:bg-orange lg:w-auto">Pharmclick</a>
-                        <a href="https://gopharm.uz/" target="_blank"  rel="noreferrer" className="block w-full px-10 py-3 text-lg font-bold text-black bg-white border-2 border-transparent rounded-lg hover:text-white hover:bg-orange lg:w-auto">Gopharm</a>
-                        <a href="https://arzonapteka.uz/ru/bot" target="_blank"  rel="noreferrer" className="block w-full px-10 py-3 text-lg font-bold text-black bg-white border-2 border-transparent rounded-lg hover:text-white hover:bg-orange lg:w-auto">Arzonapteka</a>
+                        <a href="https://pharmaclick.uz/ru/" target="_blank" rel="noreferrer" className="block w-full px-10 py-3 text-lg font-bold text-black bg-white border-2 border-transparent rounded-lg hover:text-white hover:bg-orange lg:w-auto">Pharmclick</a>
+                        <a href="https://gopharm.uz/" target="_blank" rel="noreferrer" className="block w-full px-10 py-3 text-lg font-bold text-black bg-white border-2 border-transparent rounded-lg hover:text-white hover:bg-orange lg:w-auto">Gopharm</a>
+                        <a href="https://arzonapteka.uz/ru/bot" target="_blank" rel="noreferrer" className="block w-full px-10 py-3 text-lg font-bold text-black bg-white border-2 border-transparent rounded-lg hover:text-white hover:bg-orange lg:w-auto">Arzonapteka</a>
                     </div>
                 </div>
             </div>

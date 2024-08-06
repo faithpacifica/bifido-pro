@@ -25,7 +25,7 @@ const DescriptionOne = () => {
                             <b>Дисбактериоз</b> - нарушение нормальной микрофлоры <br className='hidden lg:block' />кишечника
                         </p>
                         <div className='flex items-center justify-center'>
-                            <img  data-aos="zoom-in" data-aos-duration="1600" src={BubblesGreen} className=" max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine and bubbles' />
+                            <img data-aos="zoom-in" data-aos-duration="1600" src={BubblesGreen} className=" max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine and bubbles' />
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const DescriptionOne = () => {
                         </p>
 
                         <div className="flex flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-between">
-                            <img  data-aos="zoom-out" data-aos-duration="1600"  src={medicineGreen} className="lg:block flex items-center lg:w-full lg:max-w-[45%] max-w-[35%]" alt='medicine' />
+                            <img data-aos="zoom-out" data-aos-duration="1600" src={medicineGreen} className="lg:block flex items-center lg:w-full lg:max-w-[45%] max-w-[35%]" alt='medicine' />
                             <div className="w-full lg:max-w-[40%] gap-6 mb-10 flex flex-col mt-6 lg:mt-0">
                                 {/* TODO:linklarini quyish */}
                                 <AnimationButton customClass="w-[250px] mx-auto lg:w-full rounded-full font-semibold px-2 sm:px-4 py-1 bg-orange hover:bg-opacity-75 transition duration-300 inline-flex items-center justify-center text-white border-2 border-green text-lg">

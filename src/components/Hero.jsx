@@ -9,7 +9,7 @@
 //             <div className="container flex items-center justify-start ">
 //                 <div className="flex flex-col hero-left pt-16 max-w-[50%] w-full">
 //                     <h1 className='mb-16 text-5xl '>{t('heroTitle')}</h1>
-                  
+
 //                     <button className='inline-flex px-4 py-3 text-2xl text-white rounded-full w-fit align-left bg-orange' type="button">
 //                         {t('heroButton')}
 //                     </button>

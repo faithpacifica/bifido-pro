@@ -37,9 +37,8 @@ const Navbar = () => {
 
         {/* Full-screen overlay menu */}
         <nav
-          className={`fixed inset-0 bg-orange bg-opacity-95 z-20 flex flex-col items-center justify-center lg:static lg:bg-transparent lg:flex-row lg:justify-between text-xl font-bold transition-transform transform ${
-            isOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'
-          }`}
+          className={`fixed inset-0 bg-orange bg-opacity-95 z-20 flex flex-col items-center justify-center lg:static lg:bg-transparent lg:flex-row lg:justify-between text-xl font-bold transition-transform transform ${isOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'
+            }`}
         >
           <ul className="flex flex-col space-y-8 lg:flex-row lg:items-center lg:space-x-8 lg:space-y-0">
             <li className="hover:text-gray-700"><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink1')}</Link></li>
