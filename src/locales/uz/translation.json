@@ -11,6 +11,12 @@
       "aboutText4": "Organizmni nafas va ichak infeksiyalarga kurashuvchanligini oshiradi",
       "aboutText5": "Ozuqa mahsulotlarini o'zlashtirilishini yaxshilaydi",
       "aboutButton": "Bifido PRO haqida",
-      "instruction": "YO'RIQNOMA"
-   }
-   
+      "instruction": "YO'RIQNOMA",
+      "aboutBifido": "BIFIDO PRO",
+      "bifidopro": "Bifido PRO",
+      "bifidoText1": " Tirik <strong>Bacillus subtilis, lacto-</strong>  va <strong>biﬁdo</strong> bakteriyaiar negizidagi probiotik.",
+      "bifidoText2": " Biﬁdo PRO tarkibidagi mikroorganizmlar ichak mikroﬂorasini normallashtirishga yordam beradi.",
+      "bifidoText3": "  amerika tehnologiyasi asosida XK «IGN HEALTH GROUP» nomli horijiy korhonasida <strong> kapsula va sashe </strong> ko’rinishida ishlab chiqariladi. ",
+      "capsule": "Каpsula",
+      "sashe": "Sashe"
+}
