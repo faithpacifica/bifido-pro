@@ -15,22 +15,22 @@ const AboutUs = () => {
       <h3 className='py-2 px-3 md:px-5 md:px-[45px] bg-orange text-white rounded-r-[50px] w-full w-[400px] md:w-[450px] font-bold leading-relaxed text-lg md:text-2xl text-center md:text-left'>
       {t('aboutTitle')}
       </h3>
-      <div className="container px-4 mx-auto md:mt-4 md:px-0">
+      <div className="container px-4 mx-auto md:mt-4 ">
         <div className='flex flex-col items-center justify-between space-y-8 md:flex-row md:items-start md:space-y-0'>
           <div className=' mt-8 text-black font-bold max-w-full md:max-w-[380px] leading-normal text-base md:text-xl  md:mt-5'>
-            <div  data-aos="fade-left" data-aos-duration="1500"  className='flex items-start text-left'>
+            <div  data-aos="fade-left" data-aos-duration="1500"  className='flex items-start mb-2 text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p> {t('aboutText1')}</p>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1100"  className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1100"  className='flex items-start mb-2 text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>{t('aboutText2')}</p>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1300"  className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1300"  className='flex items-start mb-2 text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>{t('aboutText3')}</p>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1400"  className='flex items-start text-left'>
+            <div data-aos="fade-left" data-aos-duration="1400"  className='flex items-start mb-2 text-left'>
               <img src={Image} className='w-5 h-5 mt-2 mr-3' alt="rombik" />
               <p>{t('aboutText4')}</p>
             </div>
@@ -44,7 +44,7 @@ const AboutUs = () => {
             </AnimationButton>
           </div>
           <div >
-            <img src={Image1} className=' w-auto lg:w-[500px] md:mt-[-100px] lg:mt-[-242px] hidden lg:block' alt="family" />
+            <img src={Image1} className=' w-auto lg:w-[500px] md:mt-[-100px] lg:mt-[-200px] xl:mt-[-300px] hidden lg:block' alt="family" />
           </div>
           <div className='flex flex-col items-center space-y-8 md:items-end mr-[42px] mt-[-33px]'>
             <img  data-aos="zoom-in" data-aos-duration="1100" src={Image2} className='w-[70%] sm:w-[50%] md:w-[200px] mb-[10px]' alt="medicine" />
