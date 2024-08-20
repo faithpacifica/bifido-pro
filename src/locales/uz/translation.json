@@ -1,7 +1,15 @@
 {
-     "navLink1": "Kattalar uchun",
-     "navLink2": "Bolalar uchun",
-     "navLink3": "Xarid qilish",
-     "heroTitle": "Oilaning barcha a'zosi uchun - probiotik",
-      "heroButton": " 'Oilaviy probioyik dunyosi' ni yarating"
+      "navLink1": "Kattalarga",
+      "navLink2": "Bolalarga",
+      "navLink3": "Harid qilish",
+      "heroTitle": "Butun oila uchun probiotik",
+      "heroButton": "'Oilaviy probiotikning' - dunyosini oching",
+      "aboutTitle": "'Oilaviy probiotikning' - dunyosini oching",
+      "aboutText1": "Tirik bakteriyalar negizidagi probiotik",
+      "aboutText2": "Ichak mikroﬂorasini normallashtiradi",
+      "aboutText3": "Patogen bakteriyalarning o'sishini va ko’payishiga to’sqinlik qiladi",
+      "aboutText4": "Organizmni nafas va ichak infeksiyalarga kurahuvchanligini oshiradi",
+      "aboutText5": "Ozuqa mahsulotlarini o'zlashtirilishini yaxshilaydi",
+      "aboutButton": "Bifido PRO haqida",
+      "instruction": "Yo'riqnoma",
 }
