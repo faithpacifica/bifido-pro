@@ -1,5 +1,5 @@
 import React from 'react'
-import BubblesGreen from '../assets/images/bubbles-green.png';
+import BubblesGreen from '../assets/images/bubbles-green-rus.png';
 import medicineGreen from '../assets/images/sashe-green.png';
 import { DescriptionShape } from './DescriptionShape';
 import capsula from '../assets/images/capsula.png';

@@ -13,7 +13,7 @@ export const Hero = () => {
             <div className="container flex flex-col items-center justify-between py-8 mx-auto lg:flex-row lg:py-16">
                 <div className="flex flex-col lg:w-1/2 w-full lg:max-w-[50%] px-4 lg:px-0">
                     <h1 data-aos="fade-right" data-aos-duration="1500" className='mb-8 text-4xl lg:mb-16 lg:text-5xl'>{t('heroTitle')}</h1>
-                    <button className='hover-none flex flex-wrap px-6 leading-none py-3 mb-8  text-white rounded-full text-lg lg:py-3 w-[320px]  md:w-[310px] lg:w-[420px] lg:text-2xl bg-orange lg:mb-0' type="button">
+                    <button className='hover-none flex flex-wrap px-6 leading-none py-3 mb-8  text-white rounded-full text-lg lg:py-3 w-[310px]  md:w-[310px] lg:w-[500px] lg:text-2xl bg-orange lg:mb-0' type="button">
                         {t('heroButton')}
                     </button>
                     <div className="flex justify-start gap-4 mt-8 xl:justify-end lg:gap-10 lg:mt-16">

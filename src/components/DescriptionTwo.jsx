@@ -1,5 +1,5 @@
 import React from 'react'
-import BubblesOrange from '../assets/images/bubbles-orange.png';
+import BubblesOrange from '../assets/images/bubbles-orange-rus.png';
 import medicineOrange from '../assets/images/sashe-orange.png';
 import { DescriptionShape } from './DescriptionShape';
 import sashe from '../assets//images/sashe.png';
