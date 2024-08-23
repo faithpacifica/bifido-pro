@@ -11,6 +11,7 @@ import Subscribe from './components/Subscribe';
 import './index.css';  
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { LanguageProvider } from './contexts/LanguageContext';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
   
   return (
     <div className=" font-gotham">
+          <LanguageProvider>
       <Navbar />
       <Hero />
       <AboutUs/>
@@ -36,6 +38,7 @@ function App() {
       <Indications />
       <Subscribe />
       <Footer />
+      </LanguageProvider>
     </div>
   
   )

@@ -2,15 +2,26 @@ import React, { useState } from 'react';
 import Logo from '../assets/images/logo-black.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Navbar = () => {
   const { i18n } = useTranslation();
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const { language, changeLanguage } = useLanguage();
 
-  const handleLanguageChange = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  // const handleLanguageChange = (lng) => {
+  //   i18n.changeLanguage(lng);
+  //   localStorage.setItem('language', lng);
+  // };
+
+  React.useEffect(() => {
+    const storedLanguage = localStorage.getItem('language');
+    if (storedLanguage) {
+      i18n.changeLanguage(storedLanguage);
+    }
+  }, [i18n]);
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -47,13 +58,14 @@ const Navbar = () => {
           </ul>
           <button
             onClick={() => {
-              handleLanguageChange(i18n.language === 'ru' ? 'uz' : 'ru');
+              const nextLanguage = language === 'ru' ? 'uz' : 'ru';
+              changeLanguage(nextLanguage);
               setIsOpen(false);
             }}
             className="flex items-center mt-4 ml-8 space-x-2 text-xl font-bold lg:mt-0 hover:text-gray-600"
           >
             <span className="text-xl">
-              {i18n.language === 'ru' ? 'RU' : 'UZ'}
+              {language === 'ru' ? 'RU' : 'UZ'}
             </span>
           </button>
         </nav>

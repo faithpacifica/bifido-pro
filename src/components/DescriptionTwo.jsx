@@ -1,12 +1,29 @@
-import React from 'react'
-import BubblesOrange from '../assets/images/bubbles-orange-rus.png';
+import React, { useEffect, useState } from 'react'
+import BubblesOrangeRu from '../assets/images/bubbles-orange-rus.png';
+import BubblesOrangeUz from '../assets/images/bubbles-orange-uzb.png';
 import medicineOrange from '../assets/images/sashe-orange.png';
 import { DescriptionShape } from './DescriptionShape';
 import sashe from '../assets//images/sashe.png';
 import AnimationButton from './AnimationButton';
+import { useLanguage } from '../contexts/LanguageContext';
+
 
 
 const DescriptionTwo = () => {
+    const { language } = useLanguage();
+    const [currentImage, setCurrentImage] = useState(BubblesOrangeRu);
+
+    useEffect(() => {
+        if (language === 'ru') {
+            setCurrentImage(BubblesOrangeRu);
+        } else if (language === 'uz') {
+            setCurrentImage(BubblesOrangeUz);
+        } else {
+            setCurrentImage(BubblesOrangeRu);
+        }
+    }, [language]);
+
+
     return (
         <section className='relative description-two'>
             <DescriptionShape
@@ -28,7 +45,7 @@ const DescriptionTwo = () => {
                             в первые полгода жизни ребенка составляют кишечные колики, они возникают в результате <b>нарушений</b> микрофлоры кишечника. </p>
                         <div className='flex items-center justify-center'>
                             <img data-aos="fade-up"
-                                data-aos-duration="3000" src={BubblesOrange} className="max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine' />
+                                data-aos-duration="3000" src={currentImage} className="max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine' />
                         </div>
                     </div>
                     {/* TODO:tilga uzgaritirish keyin */}

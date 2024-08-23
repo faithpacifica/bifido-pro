@@ -1,12 +1,27 @@
-import React from 'react'
-import BubblesGreen from '../assets/images/bubbles-green-rus.png';
+import React, { useEffect, useState } from 'react'
+import BubblesGreenRu from '../assets/images/bubbles-green-rus.png';
+import BubblesGreenUz from '../assets/images/bubbles-green-uzb.png';
 import medicineGreen from '../assets/images/sashe-green.png';
 import { DescriptionShape } from './DescriptionShape';
 import capsula from '../assets/images/capsula.png';
 import AnimationButton from './AnimationButton';
+import { useLanguage } from '../contexts/LanguageContext';
 
 
 const DescriptionOne = () => {
+    const { language } = useLanguage();
+    const [currentImage, setCurrentImage] = useState(BubblesGreenRu);
+
+    useEffect(() => {
+        if (language === 'ru') {
+            setCurrentImage(BubblesGreenRu);
+        } else if (language === 'uz') {
+            setCurrentImage(BubblesGreenUz);
+        } else {
+            setCurrentImage(BubblesGreenRu);
+        }
+    }, [language]);
+
     return (
         <section className='relative border-b-8 border-b-green description-one'>
             <DescriptionShape
@@ -25,7 +40,7 @@ const DescriptionOne = () => {
                             <b>Дисбактериоз</b> - нарушение нормальной микрофлоры <br className='hidden lg:block' />кишечника
                         </p>
                         <div className='flex items-center justify-center'>
-                            <img data-aos="zoom-in" data-aos-duration="1600" src={BubblesGreen} className=" max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine and bubbles' />
+                            <img data-aos="zoom-in" data-aos-duration="1600" src={currentImage} className=" max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine and bubbles' />
                         </div>
                     </div>
 
