@@ -18,5 +18,14 @@
       "bifidoText2": " Biﬁdo PRO tarkibidagi mikroorganizmlar ichak mikroﬂorasini normallashtirishga yordam beradi.",
       "bifidoText3": "  amerika tehnologiyasi asosida XK «IGN HEALTH GROUP» nomli horijiy korhonasida <strong> kapsula va sashe </strong> ko’rinishida ishlab chiqariladi. ",
       "capsule": "Каpsula",
-      "sashe": "Sashe"
+      "sashe": "Sashe",
+      "kapsula": "kapsula",
+      "sashe": "sashe",
+      "shtam": "shtam",
+      "mlrd": "mlrd",
+      "koe": "КHB",
+      "disbakterioz": "Disbakterioz",
+      "disruption": "  ichak normal <br className='hidden lg:block' /> mikroﬂorasining buzilishi",
+      "apply": "<b>Biﬁdo PRO </b> - qu’llanilishi, ichak normal mikroﬂorasini <b>tiklashga </b> va disbakterioz simptomlardan <b>halos bo’lishga </b> yordam beradi",
+      "howToTake":"Qo'llash tartibi"
 }

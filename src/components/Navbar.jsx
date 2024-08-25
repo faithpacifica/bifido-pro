@@ -52,9 +52,9 @@ const Navbar = () => {
             }`}
         >
           <ul className="flex flex-col space-y-8 lg:flex-row lg:items-center lg:space-x-8 lg:space-y-0">
-            <li className="hover:text-gray-700"><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink1')}</Link></li>
-            <li className="hover:text-gray-700"><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink2')}</Link></li>
-            <li className="hover:text-gray-700"><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink3')}</Link></li>
+            <li className="hover:text-[#727376] transition duration-300 "><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink1')}</Link></li>
+            <li className="transition duration-300 hover:text-[#727376]"><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink2')}</Link></li>
+            <li className="hover:text-[#727376] transition duration-300"><Link to="/" onClick={() => setIsOpen(false)}>{t('navLink3')}</Link></li>
           </ul>
           <button
             onClick={() => {
@@ -62,7 +62,7 @@ const Navbar = () => {
               changeLanguage(nextLanguage);
               setIsOpen(false);
             }}
-            className="flex items-center mt-4 ml-8 space-x-2 text-xl font-bold lg:mt-0 hover:text-gray-600"
+            className="flex items-center mt-4 ml-8 space-x-2 text-xl font-bold lg:mt-0 hover:text-[#00BCC6] hover:font-bold"
           >
             <span className="text-xl">
               {language === 'ru' ? 'RU' : 'UZ'}
