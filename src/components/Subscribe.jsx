@@ -2,13 +2,16 @@ import React from 'react'
 import LogoSubscribe from '../assets/images/Untitled-2.png'
 import TelegramIcon from '../assets/images/telegram.png'
 import EarthIcon from '../assets/images/earth-globe.png'
+import { useTranslation } from 'react-i18next';
 
 const Subscribe = () => {
+    const { t } = useTranslation();
+    
     return (
         <section className='py-12 bg-[url(./assets/images/bg-gray.png)] bg-cover border-t-8 border-t-green'>
             <div className='flex flex-col gap-4 md:flex-row md:gap-20'>
-                <h3 data-aos="fade-right" data-aos-duration="3000" className='py-2 md:px-10 px-6 bg-orange text-white rounded-r-[50px] w-[45%] md:w-[350px] text-right md:text-3xl text-xl text-nowrap'>Где купить?</h3>
-                <p className='text-xl text-center md:text-left'>Страница на стадии разработки.</p>
+                <h3 data-aos="fade-right" data-aos-duration="3000" className='py-2 md:px-10 px-6 bg-orange text-white rounded-r-[50px] w-[45%] md:w-[350px] text-right md:text-3xl text-xl text-nowrap'> {t('toBuy')}</h3>
+                <p className='flex items-center text-2xl text-center md:text-left'> {t('developing')}</p>
             </div>
             <div className='container px-4 mx-auto'>
                 <div className='flex flex-col items-center justify-between mt-5 lg:flex-row md:mt-10'>

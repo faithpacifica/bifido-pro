@@ -32,7 +32,7 @@ const DescriptionTwo = () => {
                 customImage={sashe}
                 imgDesc="capsule"
                 koeNumber="2"
-                capsule= {t('sashe')}
+                capsule={t('sashe')}
             />
 
             <div className="container px-4 mx-auto">
@@ -41,8 +41,9 @@ const DescriptionTwo = () => {
                         <p data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine" className='mb-8 text-xl leading-[-1px] xl:text-2xl '>
-                            Кишечная  <b>колика 70%</b> из всех жалоб
-                            в первые полгода жизни ребенка составляют кишечные колики, они возникают в результате <b>нарушений</b> микрофлоры кишечника. </p>
+                            <span
+                                dangerouslySetInnerHTML={{ __html: t('intestinalColic') }} />
+                        </p>
                         <div className='flex items-center justify-center'>
                             <img data-aos="fade-up"
                                 data-aos-duration="3000" src={currentImage} className="max-w-[70%] sm:max-w-[50%] lg:max-w-full  w-full lg:w-auto" alt='intestine' />
@@ -53,8 +54,10 @@ const DescriptionTwo = () => {
                         <p data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine" className='mb-8 text-xl leading-snug xl:text-2xl '>
-                            Применение <b>Bifido PRO</b> поможет <b>восстановить </b> нормальную микрофлору кишечника и снижает газообразования<br /><br />
-                            При совместном применение с симетиконом быстро избавит от симптомов кишечной колики</p>
+                            <span
+                                dangerouslySetInnerHTML={{ __html: t('rebuild') }} />
+                        </p>
+
                         <div className="flex flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-between">
                             <img data-aos="fade-up"
                                 data-aos-duration="3000" src={medicineOrange} className="lg:block flex items-center lg:w-full lg:max-w-[45%] max-w-[35%]" alt='medicine' />
