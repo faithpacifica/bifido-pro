@@ -18,10 +18,8 @@ const Indications = () => {
                         <img data-aos="fade-down"
                             data-aos-easing="linear"
                             data-aos-duration="1500" className='lg:w-full w-[200px]  sm:w-[50%] mb-6 lg:mx-0 mx-auto' src={medicineOrange} alt="babies-medicine" />
-                        <AnimationButton customClass="uppercase rounded-full  font-semibold px-4 bg-orange mt-8 inline-block text-white border-2 border-green text-lg ">
-                            <span className='flex items-center justify-center py-3 leading-none' dangerouslySetInnerHTML={{ __html: t('fromBirth') }} />
-                        </AnimationButton>
                     </div>
+
                     <div className='basis-full lg:basis-[70%]'>
                         <h4 className='mb-2 text-3xl font-semibold text-gray'>Bifido PRO <span className='!text-2xl'>{t('kapsula')}:</span></h4>
                         <div className='mb-10 overflow-auto '>
@@ -74,6 +72,9 @@ const Indications = () => {
                         </div>
                     </div>
                 </div>
+                <AnimationButton customClass="uppercase rounded-full  font-semibold px-4 bg-orange mt-6 inline-block text-white border-2 border-green text-lg ">
+                    <span className='flex items-center justify-center py-3 leading-none' dangerouslySetInnerHTML={{ __html: t('fromBirth') }} />
+                </AnimationButton>
             </div>
         </section>
     );
