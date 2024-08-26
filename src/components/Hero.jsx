@@ -9,7 +9,7 @@ export const Hero = () => {
     const { t } = useTranslation();
 
     return (
-        <section className='border-t-8 border-b-8 border-b-green border-t-gray hero-bg'>
+        <section className='overflow-x-hidden border-t-8 border-b-8 border-b-green border-t-gray hero-bg'>
             <div className="container flex flex-col items-center justify-between py-8 mx-auto lg:flex-row lg:py-16">
                 <div className="flex flex-col lg:w-1/2 w-full lg:max-w-[50%] px-4 lg:px-0">
                     <h1 data-aos="fade-right" data-aos-duration="1500" className='mb-8 text-4xl lg:mb-16 lg:text-5xl'>{t('heroTitle')}</h1>

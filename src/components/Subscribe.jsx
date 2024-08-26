@@ -6,9 +6,9 @@ import { useTranslation } from 'react-i18next';
 
 const Subscribe = () => {
     const { t } = useTranslation();
-    
+
     return (
-        <section className='py-12 bg-[url(./assets/images/bg-gray.png)] bg-cover border-t-8 border-t-green'>
+        <section className='overflow-x-hidden py-12 bg-[url(./assets/images/bg-gray.png)] bg-cover border-t-8 border-t-green'>
             <div className='flex flex-col gap-4 md:flex-row md:gap-20'>
                 <h3 data-aos="fade-right" data-aos-duration="3000" className='py-2 md:px-10 px-6 bg-orange text-white rounded-r-[50px] w-[45%] md:w-[350px] text-right md:text-3xl text-xl text-nowrap'> {t('toBuy')}</h3>
                 <p className='flex items-center text-2xl text-center md:text-left'> {t('developing')}</p>

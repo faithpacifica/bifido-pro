@@ -7,7 +7,7 @@ const Aboutmedicine = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="border-b-8 border-b-orange h-full py-[50px] md:py-[100px] about-img">
+    <section className="overflow-x-hidden border-b-8 border-b-orange h-full py-[50px] md:py-[100px] about-img">
       <h3 className='py-2 px-[20px] md:px-[45px] bg-orange text-white rounded-r-[50px]  w-[300px] font-bold leading-relaxed text-lg md:text-2xl text-center md:text-left'>
         {t('aboutBifido')} :
       </h3>

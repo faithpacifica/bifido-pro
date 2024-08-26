@@ -24,7 +24,7 @@ const DescriptionOne = () => {
     }, [language]);
 
     return (
-        <section className='relative border-b-8 border-b-green description-one'>
+        <section className=' overflow-x-hidden relative border-b-8 border-b-green description-one'>
             <DescriptionShape
                 imgCustomClass="w-[50px] h-[70px]"
                 customClass=" bg-green border-orange"
@@ -61,7 +61,7 @@ const DescriptionOne = () => {
                                 </AnimationButton>
                                 <AnimationButton customClass="w-[250px] mx-auto lg:w-full rounded-full font-semibold px-2 sm:px-4 py-1 bg-green hover:bg-opacity-75 transition duration-300 inline-flex items-center justify-center text-white border-2 border-orange text-lg">
                                     <a href="/" target="_blank">
-                                    {t('instruction')}</a>
+                                        {t('instruction')}</a>
                                 </AnimationButton>
                             </div>
                         </div>

@@ -25,7 +25,7 @@ const DescriptionTwo = () => {
 
 
     return (
-        <section className='relative description-two'>
+        <section className='overflow-x-hidden relative description-two'>
             <DescriptionShape
                 imgCustomClass=" h-[55px]"
                 customClass=" bg-orange border-green"

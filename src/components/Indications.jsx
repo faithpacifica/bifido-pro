@@ -7,7 +7,7 @@ import AnimationButton from './AnimationButton';
 const Indications = () => {
     const { t } = useTranslation();
     return (
-        <section className='py-12 md:bg-[url(./assets/images/bg-gray.png)] bg-cover md:bg-inherit bg-[#dddee0] border-t-8 border-t-orange'>
+        <section className='overflow-x-hidden py-12 md:bg-[url(./assets/images/bg-gray.png)] bg-cover md:bg-inherit bg-[#dddee0] border-t-8 border-t-orange'>
             <h3 data-aos="fade-right" data-aos-duration="3000" className='py-2 md:px-10 px-8 bg-orange text-white rounded-r-[50px] w-[52%] md:w-[350px] text-right md:text-3xl text-xl text-nowrap'> {t('howToDrink')}</h3>
             <div className='container px-4 mx-auto'>
                 <div className='flex flex-col justify-between gap-10 lg:flex-row lg:gap-20'>
