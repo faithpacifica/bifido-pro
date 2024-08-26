@@ -24,7 +24,8 @@ const Footer = () => {
                                 </address>
                             </li>
                             <li className='leading-5'>
-                                <a className='font-bold no-underline' href='www.ignproducts.com' target='_blank' rel="noreferrer">www.ignproducts.com</a>
+                                {/* TODO:sayt linki */}
+                                <a className='font-bold no-underline' href='https://ignproducts.com/' target='_blank' rel="noreferrer">www.ignproducts.com</a>
                             </li>
                         </ul>
                         <ul className='mt-4'>
