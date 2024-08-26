@@ -26,9 +26,9 @@
       "koe": "КHB",
       "disbakterioz": "Disbakterioz",
       "disruption": "Ichak normal <br className='hidden lg:block' /> mikroﬂorasining buzilishi",
-      "apply": "<b>Biﬁdo PRO</b> - qu’llanilishi, ichak normal mikroﬂorasini <b>tiklashga</b> va disbakterioz simptomlardan <b>halos bo’lishga</b> yordam beradi",
+      "apply": "<b>Biﬁdo PRO</b> - qo’llanilishi, ichak normal mikroﬂorasini <b>tiklashga</b> va disbakterioz simptomlardan <b>halos bo’lishga</b> yordam beradi",
       "howToTake": "Qo'llash tartibi",
-      "intestinalColic": "<b>Ichak kolikasi</b> 6 oygacha chaqaloqlarning shikoyat bilan murojaatlarning qariyib <b>70%</b>tashkil etadi. Bunga asosiy sabablardan biri bu normal mikroﬂoraning <b>buzilishi</b>",
+      "intestinalColic": "<b>Ichak kolikasi</b> 6 oygacha chaqaloqlarning shikoyat bilan murojaatlarning qariyb <b>70%</b>ni tashkil etadi. Bunga asosiy sabablardan biri bu normal mikroﬂoraning <b>buzilishi</b>",
       "rebuild": "<b>Biﬁdo PRO</b> qo’llash ichak normal mikroﬂorasini <b>tiklashga</b> va gaz hosil bo’lishini kamaitirishga yordam beradi. <br /> Simetikon bilan birgalikda qo’llanilganda ichak kolikalari simptomlardan tez halos bo’lishga yordam beradi.",
       "howToDrink": "Ichish tartibi",
       "fromBirth": "<span className='leading-tight py-1'>Chaqaloqlardan boshlab qo'llash mumkin</span>",
@@ -49,9 +49,9 @@
       "toBuy": "Harid qilish joyi?",
       "developing": "Sayt shakillantirish jarayonida",
       "footer1": "Mahsulot sertiﬁkatlangan. ",
-      "footer2": "Ishlab chiqaruvchi: ХK MChJ «IGN HEALTH GROUP»,",
-      "footer3": "O'zbekiston Respublikasi, Toshkent shaxri,Shifokorlar-2 ko'chasi, 32A/7 ",
+      "footer2": "Ishlab chiqaruvchi: ХK MChJ «IGN HEALTH GROUP»",
+      "footer3": "O'zbekiston Respublikasi, Toshkent shahri, Shifokorlar-2 ko'chasi, 32A/7 ",
       "footer4": "Ozuqaga biologik faol qo'shimcha. ",
       "footer5": "Dori vositasi emas.",
-      "footer6":"Saytdagi barcha ma'lumotlarni </br> sayt egasining ruxsatisiz nusxalash taqiqlanadi"
+      "footer6":"Saytdagi barcha ma'lumotlarni </br> sayt egasining ruxsatisiz nusxalash ta'qiqlanadi"
 }
