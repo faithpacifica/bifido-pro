@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { HelmetProvider } from 'react-helmet-async';
 import Aboutmedicine from './components/Aboutmedicine';
 import AboutUs from './components/AboutUs';
 import DescriptionOne from './components/DescriptionOne';
@@ -27,7 +28,7 @@ function App() {
   }, []);
   
   return (
-    <div className=" font-gotham">
+    <HelmetProvider className=" font-gotham">
           <LanguageProvider>
       <Navbar />
       <Hero />
@@ -39,7 +40,7 @@ function App() {
       <Subscribe />
       <Footer />
       </LanguageProvider>
-    </div>
+    </HelmetProvider>
   
   )
 }
