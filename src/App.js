@@ -9,14 +9,14 @@ import { Hero } from './components/Hero';
 import Indications from './components/Indications';
 import Navbar from './components/Navbar';
 import Subscribe from './components/Subscribe';
-import './index.css';  
+import './index.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 
 function App() {
-  
+
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -26,22 +26,22 @@ function App() {
       once: true,
     });
   }, []);
-  
+
   return (
     <HelmetProvider className=" font-gotham">
-          <LanguageProvider>
-      <Navbar />
-      <Hero />
-      <AboutUs/>
-      <Aboutmedicine/>
-      <DescriptionOne/>
-      <DescriptionTwo />
-      <Indications />
-      <Subscribe />
-      <Footer />
+      <LanguageProvider>
+        <Navbar />
+        <Hero />
+        <AboutUs />
+        <Aboutmedicine />
+        <DescriptionOne />
+        <DescriptionTwo />
+        <Indications />
+        <Subscribe />
+        <Footer />
       </LanguageProvider>
     </HelmetProvider>
-  
+
   )
 }
 
