@@ -47,8 +47,8 @@ const AboutUs = () => {
             <img src={Image1} className=' w-auto lg:w-[500px] md:mt-[-100px] lg:mt-[-200px] xl:mt-[-300px] hidden lg:block' alt="family" />
           </div>
           <div className='mr-0  flex flex-col items-center space-y-8 md:items-end mr-[42px] mt-[-33px]'>
-            <img data-aos="zoom-in" data-aos-duration="1100" src={Image2} className=' w-[50%] sm:w-[40%] md:w-[200px] mb-[10px]' alt="medicine" />
-            <img data-aos="zoom-in" data-aos-duration="1100" src={Image3} className=' w-[50%] sm:w-[40%] md:w-[200px]' alt="Бифидо про КАПС." />
+            <img data-aos="zoom-in" data-aos-duration="1100" src={Image2} className=' w-[50%] sm:w-[40%] md:w-[200px] mb-[10px]' alt="Бифидо про саше зеленого цвета" />
+            <img data-aos="zoom-in" data-aos-duration="1100" src={Image3} className=' w-[50%] sm:w-[40%] md:w-[200px]' alt="Бифидо про капсулы оранжевого цвета" />
 
             <AnimationButton customClass=" hover:bg-opacity-75 transition duration-300 w-full text-lg rounded-full text-center py-1  px-3 bg-[#0EB1BA] inline-block text-white font-normal capitalise border-2 border-[#DD9043]">
               {/* TODO:link */}
